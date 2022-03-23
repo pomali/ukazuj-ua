@@ -1,4 +1,3 @@
-const pluginPWA = require("eleventy-plugin-pwa");
 const pkg = require("./package.json");
 
 module.exports = function (eleventyConfig) {
@@ -7,5 +6,4 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy("static");
   eleventyConfig.addPassthroughCopy("manifest.webmanifest");
-  eleventyConfig.addPlugin(pluginPWA);
 };

@@ -1,5 +1,6 @@
 {
   "name": "ukazuj-ua",
+  "homepage": "https://uaa.arcicode.com/",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
-    "deploy": "run-s clean build gh-pages",
+    "deploy": "run-s clean build sw:build gh-pages",
     "gh-pages": "gh-pages -d _site",
-    "clean": "rm -r _site"
+    "clean": "rm -r _site",
+    "sw:build": "workbox generateSW workbox-config.js"
   },
   "keywords": [],
   "author": "pom",
