@@ -30,3 +30,7 @@ a:visited {
 .single-card .links {
   display: none;
 }
+
+.screen {
+  display: none;
+}
