@@ -1,28 +1,54 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>obed / обід - Ukrajinsko-Slovenský obrazkový slovník</title><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>obed / обід - Ukrajinsko-Slovenský obrazkový slovník</title>
-        <meta name="description" content="Ukrajinsko-Slovenský obrazkový slovník">
-        <meta name="author" content="pom">
+<meta name="description" content="Ukrajinsko-Slovenský obrazkový slovník">
+<meta name="author" content="pom">
 
-        <link rel="manifest" href="/manifest.webmanifest"/>
-        <meta property="og:title" content="Ukrajinsko-Slovenský obrazkový slovník">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://uaa.arcicode.com/">
-        <meta property="og:description" content="Ukrajinsko-Slovenský obrazkový slovník">
-        <meta property="og:image" content="image.png">
+<meta property="og:title" content="Ukrajinsko-Slovenský obrazkový slovník">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://uaa.arcicode.com/">
+<meta property="og:description" content="Ukrajinsko-Slovenský obrazkový slovník">
+<meta property="og:image" content="/static/logo/uua-logo.png">
 
-        <link rel="icon" href="/favicon.ico">
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="icon" href="/static/logo/uua-logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/logo/uua-logo.png">
 
-        <link  rel="stylesheet" href="/static/style.css">
+<link  rel="stylesheet" href="/static/style.css">
+<link  rel="stylesheet" href="/static/print.css" media="print">
+<link  rel="stylesheet" href="/static/screen.css" media="screen">
+<script type="module">
+    import {Workbox} from 'https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-window.prod.mjs';
 
-        <link  rel="stylesheet" href="/static/print.css" media="print" >
-        <style>
+    if ('serviceWorker' in navigator) {
+        const wb = new Workbox('/sw.js');
+
+        let registration;
+
+        const showSkipWaitingPrompt = async (event) => {
+            wb.addEventListener('controlling', () => {
+                window
+                    .location
+                    .reload();
+            });
+
+            const updateAccepted = await promptForUpdate();
+
+            if (updateAccepted) {
+                wb.mesageSkipWaiting();
+            }
+        };
+
+        wb.addEventListener('waiting', (event) => {
+            showSkipWaitingPrompt(event);
+        });
+        wb.register();
+    }
+</script>
+<script defer data-domain="uaa.arcicode.com" src="https://plausible.io/js/plausible.js"></script><style>
             .single-card {
                 font-size: 2em;
                 margin: auto;
@@ -57,13 +83,6 @@
                 display: inline-block;
             }
         </style>
-        <script>
-            if ("serviceWorker" in navigator) 
-                navigator
-                    .serviceWorker
-                    .register("/service-worker.js");
-        </script>
-        <script defer data-domain="uaa.arcicode.com" src="https://plausible.io/js/plausible.js"></script>
     </head>
 
     <body>

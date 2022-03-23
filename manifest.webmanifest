@@ -4,9 +4,9 @@
   "name": "Ukazuj-UA - Ukrajinsko-Slovenský obrazkový slovník",
   "icons": [
     {
-      "src": "/images/icons-vector.svg",
+      "src": "/static/logo/uua-logo.svg",
       "type": "image/svg+xml",
-      "sizes": "512x512"
+      "sizes": "876x876"
     }
   ],
   "start_url": "/?source=pwa",
