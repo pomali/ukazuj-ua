@@ -1,7 +1,7 @@
 const shareData = {
   title: "🇺🇦🇸🇰📖",
   text: "Ukrajinsko-Slovenský obrazkový slovník",
-  url: "https://uaa.arcicode.com/",
+  url: "https://uaa.arcicode.com/?source=share",
 };
 
 const btn = document.querySelector("a.share");
