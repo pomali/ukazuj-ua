@@ -40,7 +40,6 @@
             {%- for word in dictionary -%}
                 <a href="/slovo/{{ word.sk | slug }}/" class="card {{word.color}}">
                     <div class="emoji">{{ word.emoji }}</div>
-                    <div class="image">{{ word.img }}</div>
                     <div class="lang-sk word">{{ word.sk }}</div>
                     <div class="lang-ua word">{{ word.ua }}</div>
                 </a>

@@ -6,4 +6,5 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy("static");
   eleventyConfig.addPassthroughCopy("manifest.webmanifest");
+  eleventyConfig.addPassthroughCopy("CNAME");
 };
