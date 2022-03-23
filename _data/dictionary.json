@@ -3,32 +3,72 @@
     "sk": "áno",
     "ua": "Так",
     "img": "",
-    "emoji": "✔️"
+    "emoji": "✔️",
+    "color": "white"
   },
   {
     "sk": "nie",
     "ua": "ні",
     "img": "",
-    "emoji": "❌"
+    "emoji": "❌",
+    "color": "white"
   },
   {
     "sk": "neviem",
     "ua": "не знаю",
     "img": "",
-    "emoji": "❔"
+    "emoji": "❔",
+    "color": "white"
   },
   {
     "sk": "dom",
     "ua": "Будинок",
     "ua_alt": ["Дім"],
     "img": "",
-    "emoji": "🏠"
+    "emoji": "🏠",
+    "color": "honeydew"
   },
   {
     "sk": "trieda",
     "ua": "клас",
     "img": "",
-    "emoji": "👦🪑🧑‍🏫"
+    "emoji": "👦🪑🧑‍🏫",
+    "color": "honeydew"
+  },
+  {
+    "sk": "škola",
+    "ua": "Школу",
+    "img": "",
+    "emoji": "🏫",
+    "color": "honeydew"
+  },
+  {
+    "sk": "chodba",
+    "ua": "коридор",
+    "img": "",
+    "emoji": "",
+    "color": "honeydew"
+  },
+  {
+    "sk": "miestnosť",
+    "ua": "кімната",
+    "img": "",
+    "emoji": "",
+    "color": "honeydew"
+  },
+  {
+    "sk": "záchod",
+    "ua": "туалет",
+    "img": "",
+    "emoji": "🚽",
+    "color": "honeydew"
+  },
+  {
+    "sk": "dvere",
+    "ua": "двері",
+    "img": "",
+    "emoji": "🚪",
+    "color": "honeydew"
   },
   {
     "sk": "preukaz",
@@ -37,76 +77,22 @@
     "emoji": "🛂🪪"
   },
   {
-    "sk": "škola",
-    "ua": "Школу",
-    "img": "",
-    "emoji": "🏫"
-  },
-  {
     "sk": "formulár",
     "ua": "опитувальник",
     "img": "",
     "emoji": "📝"
   },
   {
-    "sk": "chodba",
-    "ua": "коридор",
+    "sk": "jazyk",
+    "ua": "мову",
     "img": "",
-    "emoji": ""
+    "emoji": "🇺🇦👅🇸🇰"
   },
   {
-    "sk": "miestnosť",
-    "ua": "кімната",
+    "sk": "domáca úloha",
+    "ua": "Домашня робота",
     "img": "",
-    "emoji": ""
-  },
-  {
-    "sk": "záchod",
-    "ua": "туалет",
-    "img": "",
-    "emoji": "🚽"
-  },
-  {
-    "sk": "dvere",
-    "ua": "двері",
-    "img": "",
-    "emoji": "🚪"
-  },
-  {
-    "sk": "hodina (vyučovacia)",
-    "ua": "урок",
-    "img": "",
-    "emoji": "👦⏳👩‍🏫"
-  },
-  {
-    "sk": "obed",
-    "ua": "обід",
-    "img": "",
-    "emoji": "🍽🍲🍝"
-  },
-  {
-    "sk": "lyžica",
-    "ua": "ложка",
-    "img": "",
-    "emoji": "🥄"
-  },
-  {
-    "sk": "vydlička",
-    "ua": "ящірка",
-    "img": "",
-    "emoji": "🍴"
-  },
-  {
-    "sk": "nôž",
-    "ua": "ніж",
-    "img": "",
-    "emoji": "🍴"
-  },
-  {
-    "sk": "tanier",
-    "ua": "тарілка",
-    "img": "",
-    "emoji": "🍽"
+    "emoji": "📄"
   },
   {
     "sk": "papuče",
@@ -127,6 +113,47 @@
     "emoji": "👩‍🏫"
   },
   {
+    "sk": "hodina (vyučovacia)",
+    "ua": "урок",
+    "img": "",
+    "emoji": "👦⏳👩‍🏫"
+  },
+  {
+    "sk": "obed",
+    "ua": "обід",
+    "img": "",
+    "emoji": "🍽🍲🍝",
+    "color": "antiquewhite"
+  },
+  {
+    "sk": "lyžica",
+    "ua": "ложка",
+    "img": "",
+    "emoji": "🥄",
+    "color": "antiquewhite"
+  },
+  {
+    "sk": "vydlička",
+    "ua": "ящірка",
+    "img": "",
+    "emoji": "🍴",
+    "color": "antiquewhite"
+  },
+  {
+    "sk": "nôž",
+    "ua": "ніж",
+    "img": "",
+    "emoji": "🍴",
+    "color": "antiquewhite"
+  },
+  {
+    "sk": "tanier",
+    "ua": "тарілка",
+    "img": "",
+    "emoji": "🍽",
+    "color": "antiquewhite"
+  },
+  {
     "sk": "autobus",
     "ua": "автобус",
     "img": "",
@@ -137,18 +164,6 @@
     "ua": "трамвай",
     "img": "",
     "emoji": "🚋"
-  },
-  {
-    "sk": "domáca úloha",
-    "ua": "Домашня робота",
-    "img": "",
-    "emoji": "📄"
-  },
-  {
-    "sk": "jazyk",
-    "ua": "мову",
-    "img": "",
-    "emoji": "👅"
   },
   {
     "sk": "pred",
@@ -282,19 +297,22 @@
     "sk": "von",
     "ua": "зовні",
     "img": "",
-    "emoji": "🏠→🌳"
+    "emoji": "🏠→🌳",
+    "color": "honeydew"
   },
   {
     "sk": "dvor",
     "ua": "дворик",
     "img": "",
-    "emoji": "🌳⚽️🏟"
+    "emoji": "🌳⚽️🏟",
+    "color": "honeydew"
   },
   {
     "sk": "dnu",
     "ua": "дну",
     "img": "",
-    "emoji": "🌳→🏠"
+    "emoji": "🌳→🏠",
+    "color": "honeydew"
   },
   {
     "sk": "cez",
@@ -355,43 +373,50 @@
     "sk": "pondelok",
     "ua": "понеділок",
     "img": "",
-    "emoji": ""
+    "emoji": "",
+    "color": "mistyrose"
   },
   {
     "sk": "utorok",
     "ua": "вівторок",
     "img": "",
-    "emoji": ""
+    "emoji": "",
+    "color": "mistyrose"
   },
   {
     "sk": "streda",
     "ua": "середа",
     "img": "",
-    "emoji": ""
+    "emoji": "",
+    "color": "mistyrose"
   },
   {
     "sk": "štvrtok",
     "ua": "четвер",
     "img": "",
-    "emoji": ""
+    "emoji": "",
+    "color": "mistyrose"
   },
   {
     "sk": "piatok",
     "ua": "п'ятниця",
     "img": "",
-    "emoji": ""
+    "emoji": "",
+    "color": "mistyrose"
   },
   {
     "sk": "sobota",
     "ua": "субота",
     "img": "",
-    "emoji": ""
+    "emoji": "",
+    "color": "mistyrose"
   },
   {
     "sk": "nedeľa",
     "ua": "неділя",
     "img": "",
-    "emoji": ""
+    "emoji": "",
+    "color": "mistyrose"
   },
 
   {

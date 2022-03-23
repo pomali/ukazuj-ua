@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
-    "deploy": "gh-pages -d _site",
+    "deploy": "run-s clean build gh-pages",
+    "gh-pages": "gh-pages -d _site",
     "clean": "rm -r _site"
   },
   "keywords": [],
@@ -15,6 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
-    "gh-pages": "^3.2.3"
-  }
+    "gh-pages": "^3.2.3",
+    "npm-run-all": "^4.1.5",
+    "workbox-cli": "^6.5.1"
+  },
+  "dependencies": {}
 }
