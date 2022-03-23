@@ -1,6 +1,6 @@
 # Ukrajinsko-Slovenský obrazkový slovník
 
-[uaa.arcicode.com](uaa.arcicode.com)
+[uua.arcicode.com](uua.arcicode.com)
 
 Malá pomôocka pre komunikáciu, napríklad v škole, kým sa deti a rodičia trochu nezoznámia so slovenčinou.
 
