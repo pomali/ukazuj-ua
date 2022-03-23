@@ -10,7 +10,7 @@
     "start": "npx @11ty/eleventy --serve",
     "deploy": "run-s clean build sw:build gh-pages",
     "gh-pages": "gh-pages -d _site",
-    "clean": "rm -r _site",
+    "clean": "rm -r _site || true",
     "sw:build": "workbox generateSW workbox-config.js"
   },
   "keywords": [],

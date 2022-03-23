@@ -1,7 +1,7 @@
 const shareData = {
   title: "🇺🇦🇸🇰📖",
   text: "Ukrajinsko-Slovenský obrazkový slovník",
-  url: "https://developer.mozilla.org",
+  url: "https://uaa.arcicode.com/?source=share",
 };
 
 const btn = document.querySelector("a.share");
@@ -11,7 +11,6 @@ if (btn) {
       e.preventDefault();
       try {
         await navigator.share(shareData);
-        console.log("MDN shared successfully");
       } catch (err) {
         console.log("Error: " + err);
       }
