@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "short_name": "UAA",
+  "name": "Ukazuj-UA - Ukrajinsko-Slovenský obrazkový slovník",
+  "icons": [
+    {
+      "src": "/images/icons-vector.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "description": "Malá pomôocka pre komunikáciu, napríklad v škole, kým sa deti a rodičia trochu nezoznámia so slovenčinou."
+}

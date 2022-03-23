@@ -22,7 +22,7 @@
 
         <link  rel="stylesheet" href="/static/print.css" media="print" >
         <style>
-            .card {
+            .single-card {
                 font-size: 2em;
                 margin: auto;
 
@@ -34,21 +34,21 @@
                 text-align: center;
                 overflow: auto;
             }
-            .card .emoji {
+            .single-card .emoji {
                 font-size: 3.5em;
                 margin: 0.25em 0;
                 max-width: 100%;
                 overflow: auto;
             }
-            .card .words {
+            .single-card .words {
                 text-align: left;
                 margin: auto;
                 width: fit-content;
             }
-            .card .word {
+            .single-card .word {
                 font-size: 2em;
             }
-            .card .word .t {
+            .single-card .word .t {
                 margin-left: 0.25em;
                 margin-right: 1em;
             }
@@ -56,37 +56,47 @@
                 display: inline-block;
             }
         </style>
+        <script>
+            if ("serviceWorker" in navigator) 
+                navigator
+                    .serviceWorker
+                    .register("/service-worker.js");
+        </script>
     </head>
 
     <body>
         <div  class="toolbox">
             <a href="/">⏎späť</a>
-            <button class="share">✉️zdieľaj</button>
+            <a class="share" href="mailto:?subject=Ukrajinsko-Slovensk%C3%BD%20obrazkov%C3%BD%20slovn%C3%ADk&amp;body=Vysk%C3%BA%C5%A1aj%20uaa.arcicode.com" target="_blank" rel="noopener noreferrer">✉️zdieľaj</a>
         </div>
 
         <div>
-            <div class="card">
+            <div class="single-card">
                 <div class="emoji">🏫</div>
                 <div class="image"></div>
                 <div class="words">
                     <div class="lang-sk word">🇸🇰<span class="t">škola</span>
                         <div class="links">
-                            <a href="https://translate.google.com/?sl=uk&amp;text=škola" title="Google Translate">🔉</a>
+                            <a href="https://translate.google.com/?q=škola&amp;sl=sk&amp;tl=uk" title="Google Translate">🔉</a>
                             <a href="https://www.google.com/search?q=škola&amp;tbm=isch">🖼</a>
                         </div>
                     </div>
                     <div class="lang-ua word">🇺🇦<span class="t">Школу</span>
                         <div class="links">
-                            <a href="https://translate.google.com/?sl=uk&amp;text=Школу" title="Google Translate">🔉</a>
+                            <a href="https://translate.google.com/?q=Школу&amp;sl=uk&amp;tl=sk" title="Google Translate">🔉</a>
                             <a href="https://www.google.com/search?q=Школу&amp;tbm=isch">🖼</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><div>
-    v0.1
-    Zdrojový kód nájdeš na <a href="https://github.com/pomali/ukazuj-ua">github</a>. 
+        </div><div class="footer">
+    <div>
+        <a href="https://uaa.arcicode.com/">uaa.arcicode.com</a> (v0.1.0)
+    </div>
+    <div>
+    Zdrojový kód nájdeš na <a href="https://github.com/pomali/ukazuj-ua">github-e</a>. 
     Feedback daj cez twitter <a href="https://twitter.com/_pomali">@_pomali</a>.
+    </div>
 </div><script src="/static/script.js"></script>
     </body>
 </html>

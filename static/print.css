@@ -1,3 +1,6 @@
+html {
+  font-size: 9pt;
+}
 .toolbox {
   display: none;
 }
@@ -11,4 +14,19 @@ a:visited {
 
 .card {
   break-inside: avoid;
+  /* width: 12em; */
+}
+/* .card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  margin: 0.5em;
+  break-inside: auto;
+} */
+.card.symbol {
+  width: 3em;
+}
+
+.single-card .links {
+  display: none;
 }
